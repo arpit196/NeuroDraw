@@ -84,7 +84,18 @@ but I focused on making the model light with around 1 million parameters. The ta
     </ul>
   </section>
 </div>
-</div>  
+</div>
+<p>Click the "Try it" button to generate drawing.</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+	
+<script>
+function myFunction() {
+  var x = document.getElementById("myText").value;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+	
 </body>
 <script src="pie.js"></script>
 <script>
